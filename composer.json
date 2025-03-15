@@ -1,0 +1,26 @@
+{
+    "name": "gokulsingh/quick-note",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Gokulsingh\\QuickNote\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gokul Singh Gariya",
+            "email": "gokulsinghgariyaa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filament/filament": "^3.3"
+    },
+    "extra": {
+        "laravel": {
+        "providers": [
+            "Gokulsingh\\QuickNote\\QuickNoteServiceProvider"
+        ]
+        }
+    }
+}
