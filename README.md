@@ -35,7 +35,7 @@ public function panel(Panel $panel): Panel
 {
     return $panel
         ->plugins([
-            QuickNotePlugin::make(),
+            QuickNotePlugin::make()->role('admin')
         ]);
 }
 ```
